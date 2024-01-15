@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int A, B, soma;
+		
+		A = sc.nextInt();
+		B = sc.nextInt();
+		
+		soma = A + B;
+		
+		System.out.println ("soma = " + soma);
+		
+		System.out.println ("A soma é realizada através de quaisquer valores adicionados");
+		System.out.println ("Utilizando numeros inteiros.");
+		
+		sc.close();
+		
+	}
